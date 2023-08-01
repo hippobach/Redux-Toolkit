@@ -1,0 +1,48 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+    .container {
+        min-width: 600px;
+        padding: 16px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+        align-items: center;
+        background-color: #eeede7;
+
+        .header {
+            font-size: 2.6rem;
+            text-align: center;
+        }
+
+        .post-item {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            color: #fff;
+            background-color: #4682a9;
+            user-select: none;
+
+            &:hover {
+                opacity: 0.9;
+                cursor: pointer;
+            }
+
+            .title {
+                font-size: 2rem;
+            }
+
+            .content {
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
